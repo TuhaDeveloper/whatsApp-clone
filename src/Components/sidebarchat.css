@@ -1,0 +1,22 @@
+.chat-user {
+    display: flex;
+    padding: 5px;
+    margin: 1rem 0;
+    margin-left: .5rem;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.chat-user:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+
+}
+
+.chat-user-des {
+    margin-left: 10px;
+}
+
+.timestamp {
+    font-size: x-small;
+}

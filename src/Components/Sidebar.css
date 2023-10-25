@@ -1,0 +1,49 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: .3;
+}
+
+.sidebar-header {
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    border-right: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sidebar-search {
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    margin: .5rem;
+    display: flex;
+}
+
+.sidebar-search input {
+    margin: .4rem;
+    border: none;
+    outline: none;
+}
+
+.sidebar-chat {
+    overflow: auto;
+}
+
+.sidebar-chat h2 {
+    margin-left: 1rem;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.sidebar-chat h2:hover {
+    background-color: aliceblue;
+}
+
+
+@media screen and (max-width:600px) {
+    .sidebar {
+        display: none;
+    }
+}
